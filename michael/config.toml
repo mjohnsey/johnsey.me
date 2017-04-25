@@ -1,7 +1,7 @@
 theme="hugo-theme-nix"
-baseURL = "https://michael.johnsey.me"
+baseURL = "https://johnsey.me"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Michael Johnsey"
 MetaDataFormat = "toml"
 copyright = "Copyright Michael Johnsey ©2017"
 
@@ -18,3 +18,7 @@ copyright = "Copyright Michael Johnsey ©2017"
   About = "Hello, my name is Michael Johnsey. I'm currently a Software Engineer at Mosaik in Memphis, TN."
   ProfilePicture = "https://s.gravatar.com/avatar/cdc4466f7165f436529ca7c3316a304b?s=200"
   # GoogleAnalytics = "your_google_analytics_id"
+
+[attributions]
+  theme="https://github.com/LordMathis/hugo-theme-nix"
+  favicon="https://gauger.io/fonticon/"
