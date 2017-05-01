@@ -17,7 +17,7 @@ copyright = "Copyright Michael Johnsey ©2017"
   Email = "michael@johnsey.me"
   About = "Hello, my name is Michael Johnsey. I'm currently a Software Engineer at Mosaik in Memphis, TN."
   ProfilePicture = "https://s.gravatar.com/avatar/cdc4466f7165f436529ca7c3316a304b?s=200"
-  # GoogleAnalytics = "your_google_analytics_id"
+  GoogleAnalytics = "UA-98280797-1"
 
 [attributions]
   theme="https://github.com/LordMathis/hugo-theme-nix"
