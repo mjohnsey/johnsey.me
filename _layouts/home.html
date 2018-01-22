@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div>
+
+      <header class="clearfix">
+        <div class="container mx-auto px-2 mt-4 mb-2 clearfix header-text">
+          <h1 class="h0 inline-block py-2 mt-4 header-title">{{ site.title }}</h1>
+          <div class="clearfix mb-4 py-1">
+            <p class="h4 lh-condensed font-smoothing">{{ site.description }}</p>
+            <div class="col-1 sm-width-full border-top-thick">
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="container mx-auto px-2 py-2">
+        <h2 class="bold no-underline h1 font-smoothing">Family Members</h2>
+        <ul class="family-members">
+            {% assign family_member_pages = site.pages | where:"family_member",true %}
+            {% for member in family_member_pages%}
+            {% if member.title %}
+              <li><a class="italic no-underline h2 font-smoothing" href="{{ member.url | prepend: site.baseurl }}">{{ member.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        <h2 class="bold no-underline h1 font-smoothing">Other Family Pages</h2>
+        <ul class="family-members">
+            {% assign other_pages = site.pages | where:"family_member",false %}
+            {% for page in other_pages%}
+            {% if page.title %}
+              <li><a class="italic no-underline h2 font-smoothing" href="{{ member.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+      </div>
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

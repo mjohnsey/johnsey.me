@@ -1,5 +1,0 @@
-johnsey.me {
-    root /var/www/johnsey.me
-    log stdout
-    errors stderr
-}
