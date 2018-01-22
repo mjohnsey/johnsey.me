@@ -33,7 +33,7 @@
             {% assign other_pages = site.pages | where:"family_member",false %}
             {% for page in other_pages%}
             {% if page.title %}
-              <li><a class="italic no-underline h2 font-smoothing" href="{{ member.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+              <li><a class="italic no-underline h2 font-smoothing" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}
             {% endfor %}
         </ul>

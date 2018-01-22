@@ -18,7 +18,7 @@ author: Michael Johnsey
 email: michael@johnsey.me
 description: This is where you can find all the Johnsey family members.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://johnsey.me" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mcjohnsey
 github_username:  mjohnsey
 github_repo: johnsey.me
