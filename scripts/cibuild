@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
+gem install bundle
+bundle install
 bundle exec jekyll build
 # Have to ignore this website because it will keep it from deploying new pages since the new page doesn't exist yet
 # (Computers, amirite?)
