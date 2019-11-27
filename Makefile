@@ -11,16 +11,4 @@ serve:
 
 .PHONY: build
 build:
-	bundle exec jekyll build
-
-.PHONY: deploy
-deploy: build empty-bucket
-	aws s3 cp _site s3://johnsey.me --recursive --profile personal
-
-.PHONY: empty-bucket
-empty-bucket:
-	aws s3 rm s3://johnsey.me/* --profile personal
-
-.PHONY: update-cert
-update-cert:
-	sudo certbot certonly --manual -d johnsey.me
+	bundle exec jekyll build -d docs
