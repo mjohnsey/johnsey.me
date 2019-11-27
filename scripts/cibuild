@@ -6,4 +6,4 @@ bundle install
 bundle exec jekyll build -d docs
 # Have to ignore this website because it will keep it from deploying new pages since the new page doesn't exist yet
 # (Computers, amirite?)
-bundle exec htmlproofer --url-ignore "/johnsey.me/" ./docs
+bundle exec htmlproofer --internal-domains "/johnsey.me/" ./docs
