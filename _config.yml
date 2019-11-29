@@ -39,7 +39,3 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - scripts/
-
-sass:
-  sass_dir: .sass-cache
-  sourcemap: false
