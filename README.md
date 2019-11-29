@@ -2,7 +2,7 @@
 
 This is a jekyll static site. Fun stuff can be found in the `Makefile` and the site deploys to Github Pages via `docs/`.
 
-This will use GH Action to build the site into to the `docs` folder.
+This will use a GH Action to build the site into to the `docs` folder.
 
 ## Acknowledgments
 

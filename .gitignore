@@ -2,3 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 .vscode
+vendor
+.jekyll-cache
+style.css.map
