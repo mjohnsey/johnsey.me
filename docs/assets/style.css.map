@@ -3,11 +3,11 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"../../../../../opt/hostedtoolcache/Ruby/2.5.5/x64/lib/ruby/gems/2.5.0/gems/jekyll-athena-0.0.2/_sass/_theme-light.scss",
-		"../../../../../opt/hostedtoolcache/Ruby/2.5.5/x64/lib/ruby/gems/2.5.0/gems/jekyll-athena-0.0.2/_sass/_variables.scss",
-		"../../../../../opt/hostedtoolcache/Ruby/2.5.5/x64/lib/ruby/gems/2.5.0/gems/jekyll-athena-0.0.2/_sass/_base.scss",
-		"../../../../../opt/hostedtoolcache/Ruby/2.5.5/x64/lib/ruby/gems/2.5.0/gems/jekyll-athena-0.0.2/_sass/_components.scss",
-		"../../../../../opt/hostedtoolcache/Ruby/2.5.5/x64/lib/ruby/gems/2.5.0/gems/jekyll-athena-0.0.2/_sass/_utilities.scss"
+		"vendor/bundle/gems/jekyll-athena-0.0.2/_sass/_theme-light.scss",
+		"vendor/bundle/gems/jekyll-athena-0.0.2/_sass/_variables.scss",
+		"vendor/bundle/gems/jekyll-athena-0.0.2/_sass/_base.scss",
+		"vendor/bundle/gems/jekyll-athena-0.0.2/_sass/_components.scss",
+		"vendor/bundle/gems/jekyll-athena-0.0.2/_sass/_utilities.scss"
 	],
 	"sourcesContent": [
 		"@charset \"utf-8\";\n\n// Import partials from `sass_dir` and set theme here\n@import\n        \"theme-light.scss\"\n        // \"theme-system.scss\"\n;\n",
